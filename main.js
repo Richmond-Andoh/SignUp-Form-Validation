@@ -12,8 +12,8 @@ let name = id('name'),
 
 password.addEventListener('focus', (e) => {
     eyeSlash.style.opacity = "1";
-    // document.getElementById("exclamation3").style.opacity = "0"
-    // document.getElementById("check3").style.opacity = "0";
+    document.getElementById("exclamation3").style.opacity = "0"
+    document.getElementById("check3").style.opacity = "0";
 })
 
 eyeSlash.addEventListener("click", (e) => {
