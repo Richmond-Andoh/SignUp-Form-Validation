@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form Validation</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <link rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">    
+</head>
+<body>
+    <div class="main">
+        <div class="section">
+            <div class="brand">
+                <h1>Get Started And Enjoy The Best Out of it</h1> 
+             </div>
+             <div class="sectionImg">
+                <img src="./images/istockphoto.jpg" alt="" id="login">
+            </div>
+            
+        </div>
+        <div class="container" id="formDiv">
+            <div class="formHeading">
+                <h1>Get Started</h1>
+                <p>Already Have an Account</p>
+                <span id="openLoginPage">LogIn</span>
+                <h2>OR</h2>
+            </div>
+            <form id="signUpForm">
+                <div>
+                    <label for="name" class="label">Username</label> <br>
+                    <i class="bi bi-person-fill"></i>
+                    <input type="text" id="name">
+                    <i class="bi bi-check-circle-fill" id="check1"></i>
+                    <i class="bi bi-exclamation-circle-fill" id="exclamation1"></i>
+                    <div class="errMessage"></div>
+                </div>
+                <div>
+                    <label for="email" class="label">Email</label> <br>
+                    <i class="bi bi-envelope-fill"></i>
+                    <input type="email" id="email">
+                    <i class="bi bi-check-circle-fill" id="check2"></i>
+                    <i class="bi bi-exclamation-circle-fill" id="exclamation2"></i>
+                    <div class="errMessage"></div>
+                </div>
+                <div>
+                    <label for="password" class="label">Password</label> <br>
+                    <i class="bi bi-key-fill"></i>
+                    <input type="password" id="password">
+                    <i class="bi bi-eye-fill" id="eye"></i>
+                    <i class="bi bi-eye-slash-fill" id="eyeSlash"></i>
+                    <i class="bi bi-check-circle-fill" id="check3"></i>
+                    <i class="bi bi-exclamation-circle-fill" id="exclamation3"></i>
+                    <div class="errMessage"></div>
+                </div>
+                <button type="submit" class="submitBtn">Submit</button>
+            </form>
+        </div>
+    </div>
+   
+    <script src='./main.js'></script>
+</body>
+</html>
